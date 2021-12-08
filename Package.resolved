@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "ErrorMessageType",
-        "repositoryURL": "https://github.com/jeremyabannister/ErrorMessageType",
+        "package": "ErrorMessage",
+        "repositoryURL": "https://github.com/jeremyabannister/ErrorMessage",
         "state": {
           "branch": null,
-          "revision": "12a61407a1a804f345fa02449511337edc5a7c9e",
+          "revision": "ca71df3b26edae39ccd949fc2a763f38a91635f5",
           "version": "0.1.0"
         }
       }

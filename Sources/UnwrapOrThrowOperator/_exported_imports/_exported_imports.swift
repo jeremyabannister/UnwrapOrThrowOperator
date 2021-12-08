@@ -6,4 +6,4 @@
 //
 
 ///
-@_exported import ErrorMessageType
+@_exported import ErrorMessage

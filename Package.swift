@@ -13,17 +13,17 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/jeremyabannister/ErrorMessageType",
+            url: "https://github.com/jeremyabannister/ErrorMessage",
             from: "0.1.0"
         ),
     ],
     targets: [
         .target(
             name: "UnwrapOrThrowOperator",
-            dependencies: ["ErrorMessageType"]
+            dependencies: ["ErrorMessage"]
         ),
         .testTarget(
-            name: "UnwrapOrThrowOperator_tests",
+            name: "UnwrapOrThrowOperator-tests",
             dependencies: ["UnwrapOrThrowOperator"]
         ),
     ]
