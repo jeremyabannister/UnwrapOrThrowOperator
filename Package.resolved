@@ -9,6 +9,24 @@
           "revision": "1468d23676022016c33870feb501b29939ff5722",
           "version": "0.1.1"
         }
+      },
+      {
+        "package": "InfixOperator-PipeQuestionMark",
+        "repositoryURL": "https://github.com/jeremyabannister/InfixOperator-PipeQuestionMark",
+        "state": {
+          "branch": null,
+          "revision": "d6015adf39fa8d706928456cb8dbbd6b9080c8f6",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "PostfixOperator-PipeQuestionMark",
+        "repositoryURL": "https://github.com/jeremyabannister/PostfixOperator-PipeQuestionMark",
+        "state": {
+          "branch": null,
+          "revision": "b653e984a088c6083a3ce9a133c8523c0b4abb15",
+          "version": "1.0.0"
+        }
       }
     ]
   },
