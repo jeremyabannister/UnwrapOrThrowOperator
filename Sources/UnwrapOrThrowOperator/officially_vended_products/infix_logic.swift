@@ -10,10 +10,19 @@ public extension Optional {
     
     ///
     static func |? (lhs: Self, rhs: String) throws -> Wrapped {
+        try lhs |? rhs.asErrorMessage()
+    }
+}
+
+///
+public extension Optional {
+    
+    ///
+    static func |? <E: Error> (lhs: Self, rhs: E) throws -> Wrapped {
         if let lhs = lhs {
             return lhs
         } else {
-            throw rhs.asErrorMessage()
+            throw rhs
         }
     }
 }
