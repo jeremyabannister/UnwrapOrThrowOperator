@@ -6,10 +6,10 @@
 //
 
 ///
-public extension Optional {
+extension Optional {
     
     ///
-    static postfix func |? (value: Self) throws -> Wrapped {
+    public static postfix func |? (value: Self) throws -> Wrapped {
     
         /// Assert that the value exists, otherwise throw an error
         guard let value = value else {

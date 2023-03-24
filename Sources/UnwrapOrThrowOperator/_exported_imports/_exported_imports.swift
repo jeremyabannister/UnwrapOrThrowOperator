@@ -6,6 +6,6 @@
 //
 
 ///
-@_exported import ErrorMessage
+@_exported import ErrorMessage_module
 @_exported import InfixOperator_PipeQuestionMark
 @_exported import PostfixOperator_PipeQuestionMark

@@ -1,7 +1,9 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.7
 
+///
 import PackageDescription
 
+///
 let package = Package(
     name: "UnwrapOrThrowOperator",
     products: [
@@ -12,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/jeremyabannister/ErrorMessage",
-            from: "0.1.1"
+            url: "https://github.com/jeremyabannister/ErrorMessage-module",
+            from: "0.1.0"
         ),
         .package(
             url: "https://github.com/jeremyabannister/InfixOperator-PipeQuestionMark",
@@ -28,14 +30,16 @@ let package = Package(
         .target(
             name: "UnwrapOrThrowOperator",
             dependencies: [
-                "ErrorMessage",
+                "ErrorMessage-module",
                 "InfixOperator-PipeQuestionMark",
                 "PostfixOperator-PipeQuestionMark"
             ]
         ),
         .testTarget(
             name: "UnwrapOrThrowOperator-tests",
-            dependencies: ["UnwrapOrThrowOperator"]
+            dependencies: [
+                "UnwrapOrThrowOperator",
+            ]
         ),
     ]
 )

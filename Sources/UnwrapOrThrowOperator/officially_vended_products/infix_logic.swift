@@ -6,19 +6,19 @@
 //
 
 ///
-public extension Optional {
+extension Optional {
     
     ///
-    static func |? (lhs: Self, rhs: String) throws -> Wrapped {
+    public static func |? (lhs: Self, rhs: String) throws -> Wrapped {
         try lhs |? rhs.asErrorMessage()
     }
 }
 
 ///
-public extension Optional {
+extension Optional {
     
     ///
-    static func |? <E: Error> (lhs: Self, rhs: E) throws -> Wrapped {
+    public static func |? <E: Error> (lhs: Self, rhs: E) throws -> Wrapped {
         if let lhs = lhs {
             return lhs
         } else {
