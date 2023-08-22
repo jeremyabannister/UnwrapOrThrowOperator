@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jeremyabannister/ErrorMessage-module",
       "state" : {
-        "revision" : "4eea71d7b3dc1a24fb0a69871009265819ec7ec5",
-        "version" : "0.1.0"
+        "revision" : "cc829071f1822ca202307b49b08e6d7b99d137fe",
+        "version" : "0.1.1"
       }
     },
     {

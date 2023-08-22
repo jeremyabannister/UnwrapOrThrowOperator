@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/jeremyabannister/ErrorMessage-module",
-            from: "0.1.0"
+            "0.1.1" ..< "0.2.0"
         ),
         .package(
             url: "https://github.com/jeremyabannister/InfixOperator-PipeQuestionMark",
